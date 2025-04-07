@@ -23,7 +23,7 @@ This project demonstrates authentication using **Auth0** on a **React (Vite)** f
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/auth0-react-node.git
+git clone https://github.com/Tnya1209/auth0-react-node.git
 cd auth0-react-node
 ```
 2. Setup Auth0
