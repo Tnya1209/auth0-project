@@ -14,7 +14,7 @@ function App() {
   const sendTokenToBackend = async () => {
     try {
       const token = await getAccessTokenSilently();
-      await axios.post('http://localhost:5000/auth/callback', { token });
+      await axios.post('https://auth0-project-hzp9.onrender.com/auth/callback', { token });
       alert('Token sent and email triggered!');
     } catch (err) {
       console.error(err);
